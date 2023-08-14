@@ -104,19 +104,30 @@ const filesToCache = [
 ];
 
 // Service worker install hook.
-self.addEventListener('install', function(e) {
-   e.waitUntil(
-      caches.open(cacheName).then(function(cache) {
-         return cache.addAll(filesToCache);
-      })
-   );
+self.addEventListener('install', async function (e) {
+   console.info('Instalado el Service Worker');
+   const cache = await caches.open(cacheName);
+   try {
+      await cache.addAll(filesToCache);
+   } catch (err) {
+      console.warn('Error al cachear:', err);
+      for (const file of filesToCache) {
+         try {
+            await cache.add(file);
+         } catch (err) {
+            console.warn('Archivo fallido:', file);
+         }
+      }
+   }
 });
 
+
+
 // Service worker activation hook.
-self.addEventListener('activate', function(e) {
+self.addEventListener('activate', function (e) {
    e.waitUntil(
-      caches.keys().then(function(keyList) {
-         return Promise.all(keyList.map(function(key) {
+      caches.keys().then(function (keyList) {
+         return Promise.all(keyList.map(function (key) {
             if (key !== cacheName && key !== dataCacheName) {
                return caches.delete(key);
             }
@@ -126,7 +137,7 @@ self.addEventListener('activate', function(e) {
    return self.clients.claim();
 });
 
-self.addEventListener('fetch', function(e) {
+self.addEventListener('fetch', function (e) {
    e.respondWith(
       caches.match(e.request).then(function (response) {
          console.log(e.request)
