@@ -1,0 +1,67 @@
+{
+   "short_name": "EncargueSuWeb",
+   "name": "EncargueSuWeb",
+   "description": "Llegue a sus clientes de una manera profesional con una de nuestras páginas web personalizadas para adaptarse a sus necesidades.",
+   "start_url": "/EncargueSuWeb/index.html",
+   "display": "standalone",
+   "scope": "/EncargueSuWeb/",
+   "theme_color": "#212529",
+   "background_color": "#212529",
+   "lang": "es",
+   "icons": [{
+      "src": "/EncargueSuWeb/src/img/logo/192/white-black.png",
+      "type": "image/png",
+      "sizes": "192x192"
+   },
+      {
+         "src": "/EncargueSuWeb/src/img/logo/256/white-black.png",
+         "type": "image/png",
+         "sizes": "256x256"
+      },
+      {
+         "src": "/EncargueSuWeb/src/img/logo/384/white-black.png",
+         "type": "image/png",
+         "sizes": "384x384"
+      },
+      {
+         "src": "/EncargueSuWeb/src/img/logo/512/white-black.png",
+         "type": "image/png",
+         "sizes": "512x512"
+      },
+      {
+         "src": "/EncargueSuWeb/src/img/logo/maskable/white-black.png",
+         "type": "image/png",
+         "sizes": "192x192",
+         "purpose": "maskable"
+      }],
+   "shortcuts": [{
+      "name": "EncargueSuWeb | ¿Quién soy?",
+      "short_name": "EncargueSuWeb | ¿Quién soy?",
+      "description": "Conozca mejor quién soy, mis habilidades y cómo trabajo.",
+      "url": "/EncargueSuWeb/pages/quien-soy.html"
+   },
+      {
+         "name": "EncargueSuWeb |  Mis Redes",
+         "short_name": "EncargueSuWeb |  Mis Redes",
+         "description": "Todas mis redes sociales y formas de contacto en un solo lugar.",
+         "url": "/EncargueSuWeb/pages/contactenos.html"
+      },
+      {
+         "name": "EncargueSuWeb | Precios",
+         "short_name": "EncargueSuWeb | Precios",
+         "description": "Conozca el precio de la página web ideal que más se adapte a sus necesidades.",
+         "url": "/EncargueSuWeb/pages/precios.html"
+      },
+      {
+         "name": "EncargueSuWeb | Características Web",
+         "short_name": "EncargueSuWeb | Características Web",
+         "description": "Conozca las características que pueden influir en el precio de la página web.",
+         "url": "/EncargueSuWeb/pages/caracteristicas-web.html"
+      },
+      {
+         "name": "EncargueSuWeb | Preguntas Frecuentes",
+         "short_name": "EncargueSuWeb | Preguntas Frecuentes",
+         "description": "Encuentre respuestas a preguntas comunes de usuarios que solicitan nuestros servicios.",
+         "url": "/EncargueSuWeb/pages/preguntas-frecuentes.html"
+      }]
+}

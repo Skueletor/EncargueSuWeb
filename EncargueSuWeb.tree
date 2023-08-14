@@ -1,0 +1,162 @@
+│   EncargueSuWeb.tree
+│   index.html
+│   manifest.json
+│   robots.txt
+│   serviceWorker.js
+│   sitemap.xml
+│
+├───pages
+│       caracteristicas-web.html
+│       contactenos.html
+│       politica-privacidad.html
+│       precios.html
+│       preguntas-frecuentes.html
+│       quien-soy.html
+│       terminos-condiciones.html
+│
+└───src
+    ├───css
+    │   │   extra.css
+    │   │
+    │   └───modules
+    │           bundle.min.css
+    │           prism.css
+    │           swiper-bundle.min.css
+    │
+    ├───fonts
+    │       BOUNCY-GUM.otf
+    │       BOUNCY-GUM.ttf
+    │
+    ├───img
+    │   ├───carousel
+    │   │   ├───img1
+    │   │   │       360.png
+    │   │   │       768.png
+    │   │   │       img.png
+    │   │   │
+    │   │   ├───img2
+    │   │   │       360.jpg
+    │   │   │       768.jpg
+    │   │   │       img.jpg
+    │   │   │
+    │   │   └───img3
+    │   │           360.jpg
+    │   │           768.jpg
+    │   │           img.jpg
+    │   │
+    │   ├───home
+    │   │       app-0.png
+    │   │       app.png
+    │   │       confianza.png
+    │   │       enlinea.png
+    │   │       google-0.jpg
+    │   │       google.jpg
+    │   │       personalizacion.png
+    │   │       profesionalismo.png
+    │   │       rendimiento.png
+    │   │       soporte.png
+    │   │
+    │   ├───icon
+    │   │       cerrar.png
+    │   │       cliente.png
+    │   │       facebook-dark.svg
+    │   │       facebook-light.svg
+    │   │       faq.png
+    │   │       flecha-arriba.png
+    │   │       github-dark.svg
+    │   │       github-light.svg
+    │   │       inicio.svg
+    │   │       instagram-dark.svg
+    │   │       instagram-light.svg
+    │   │       linkedin-dark.svg
+    │   │       linkedin-light.svg
+    │   │       precios.png
+    │   │       pregunta.png
+    │   │       telegram-dark.svg
+    │   │       telegram-light.svg
+    │   │       web.png
+    │   │       whatsapp-dark.svg
+    │   │       whatsapp-light.svg
+    │   │
+    │   ├───logo
+    │   │   ├───150
+    │   │   │       black-blue.png
+    │   │   │       black-white.png
+    │   │   │       white-black.png
+    │   │   │       white-blue.png
+    │   │   │
+    │   │   ├───192
+    │   │   │       black-blue.png
+    │   │   │       black-white.png
+    │   │   │       white-black.png
+    │   │   │       white-blue.png
+    │   │   │
+    │   │   ├───256
+    │   │   │       black-blue.png
+    │   │   │       black-white.png
+    │   │   │       white-black.png
+    │   │   │       white-blue.png
+    │   │   │
+    │   │   ├───384
+    │   │   │       black-blue.png
+    │   │   │       black-white.png
+    │   │   │       white-black.png
+    │   │   │       white-blue.png
+    │   │   │
+    │   │   ├───46
+    │   │   │       black-blue.png
+    │   │   │       black-white.png
+    │   │   │       white-black.png
+    │   │   │       white-blue.png
+    │   │   │
+    │   │   ├───512
+    │   │   │       black-blue.png
+    │   │   │       black-white.png
+    │   │   │       white-black.png
+    │   │   │       white-blue.png
+    │   │   │
+    │   │   ├───favicon
+    │   │   │       apple-touch-icon.png
+    │   │   │       favicon-16x16.png
+    │   │   │       favicon-32x32.png
+    │   │   │       favicon.ico
+    │   │   │
+    │   │   └───maskable
+    │   │           black-white.png
+    │   │           white-black.png
+    │   │
+    │   ├───my
+    │   │       150.png
+    │   │       190.png
+    │   │       46.png
+    │   │       512.png
+    │   │
+    │   ├───opengraph
+    │   │       about-me.png
+    │   │       contactenos.jpg
+    │   │       EncargueSuWeb.png
+    │   │       faq.jpg
+    │   │       info-web.jpg
+    │   │       precios.png
+    │   │
+    │   └───quien-soy
+    │       │   edad.png
+    │       │   experiencia.png
+    │       │   ideoma.svg
+    │       │   mapa.png
+    │       │   pais.png
+    │       │
+    │       └───fondo
+    │               360.jpg
+    │               768.jpg
+    │               img.jpg
+    │
+    └───js
+        │   about-me.js
+        │   info-web.js
+        │
+        └───modules
+                bootstrap.bundle.min.js
+                bundle.min.js
+                prism.js
+                swiper-bundle.min.js
