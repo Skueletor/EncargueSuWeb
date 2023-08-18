@@ -1,4 +1,4 @@
-const swVersion = '1.0.0';
+const swVersion = '1.0.1';
 
 const name = 'EncargueSuWeb'
 const dataCacheName = `${name}-data-V${swVersion}`; //EncargueSuWeb-data-V1
