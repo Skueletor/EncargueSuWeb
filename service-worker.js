@@ -1,4 +1,4 @@
-const swVersion = '1';
+const swVersion = '1.0.0';
 
 const name = 'EncargueSuWeb'
 const dataCacheName = `${name}-data-V${swVersion}`; //EncargueSuWeb-data-V1
@@ -84,6 +84,7 @@ const filesToCache = [
    initialPath + '/src/img/home/soporte.png',
    initialPath + '/src/img/home/confianza.png',
    initialPath + '/src/img/home/profesionalismo.png',
+   initialPath + '/src/img/home/profesionalismo.svg',
    initialPath + '/src/img/home/rendimiento.png',
    initialPath + '/src/img/home/enlinea.png',
    initialPath + '/src/img/home/personalizacion.png',
