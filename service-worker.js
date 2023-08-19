@@ -1,4 +1,4 @@
-const swVersion = '1.0.1';
+const swVersion = '1.0.2';
 
 const name = 'EncargueSuWeb'
 const dataCacheName = `${name}-data-V${swVersion}`; //EncargueSuWeb-data-V1
@@ -106,7 +106,6 @@ const filesToCache = [
 
 // Service worker install hook.
 self.addEventListener('install', async function (e) {
-   console.info('Instalado el Service Worker');
    const cache = await caches.open(cacheName);
    try {
       await cache.addAll(filesToCache);
@@ -121,7 +120,6 @@ self.addEventListener('install', async function (e) {
       }
    }
 });
-
 
 
 // Service worker activation hook.
@@ -141,7 +139,6 @@ self.addEventListener('activate', function (e) {
 self.addEventListener('fetch', function (e) {
    e.respondWith(
       caches.match(e.request).then(function (response) {
-         console.log(e.request)
          return response || fetch(e.request);
       })
    );
