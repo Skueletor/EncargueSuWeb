@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://skueletor.github.io/EncargueSuWeb/index.html</loc>
-      <lastmod>2023-08-19</lastmod> 
+      <loc>https://Skueletor.github.io/EncargueSuWeb/index.html</loc>
+      <lastmod>2023-07-30</lastmod>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://skueletor.github.io/EncargueSuWeb/pages/quien-soy.html</loc>
-      <lastmod>2023-08-19</lastmod> 
+      <loc>https://Skueletor.github.io/EncargueSuWeb/pages/quien-soy.html</loc>
+      <lastmod>2023-07-30</lastmod>
       <priority>0.9</priority>
    </url>
    <url>
-      <loc>https://skueletor.github.io/EncargueSuWeb/pages/contactenos.html</loc>
-      <lastmod>2023-08-19</lastmod> 
+      <loc>https://Skueletor.github.io/EncargueSuWeb/pages/contactenos.html</loc>
+      <lastmod>2023-07-30</lastmod>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://skueletor.github.io/EncargueSuWeb/pages/precios.html</loc>
-      <lastmod>2023-08-19</lastmod> 
+      <loc>https://Skueletor.github.io/EncargueSuWeb/pages/precios.html</loc>
+      <lastmod>2023-07-30</lastmod>
       <priority>0.7</priority>
    </url>
    <url>
-      <loc>https://skueletor.github.io/EncargueSuWeb/pages/preguntas-frecuentes.html</loc>
-      <lastmod>2023-08-19</lastmod> 
+      <loc>https://Skueletor.github.io/EncargueSuWeb/pages/preguntas-frecuentes.html</loc>
+      <lastmod>2023-07-30</lastmod>
       <priority>0.6</priority>
    </url>
    <url>
-      <loc>https://skueletor.github.io/EncargueSuWeb/pages/caracteristicas-web.html</loc>
-      <lastmod>2023-08-19</lastmod> 
+      <loc>https://Skueletor.github.io/EncargueSuWeb/pages/caracteristicas-web.html</loc>
+      <lastmod>2023-07-30</lastmod>
       <priority>0.5</priority>
    </url>
 </urlset>
