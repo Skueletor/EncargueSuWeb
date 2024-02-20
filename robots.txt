@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://danhezcode.github.io/EncargueSuWeb/sitemap.xml
+Sitemap: https://Skueletor.github.io/EncargueSuWeb/sitemap.xml
