@@ -114,7 +114,7 @@ const main = (function () {
          $('#animaciones').prop('checked', false);
       }
 
-      //_checkURL();
+      _checkURL();
 
    }); //end ready
    //----------------- fun down----------------------
