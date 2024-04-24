@@ -250,7 +250,7 @@ const main = (function () {
 
    function _checkURL() {
       const url = window.location.href;
-      const expectedUrl = "https://Skueletor.github.io/";
+      const expectedUrl = "https://skueletor.github.io/";
 
       if (!url.startsWith(expectedUrl)) {
          window.location.href = expectedUrl + nameWeb + "/";
